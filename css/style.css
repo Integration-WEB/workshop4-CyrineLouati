@@ -43,7 +43,7 @@
 }
 
 .nav-link{
-    font-family: 'League Gothic';
+    font-family: 'League_Gothic';
 }
 
 .section2{
@@ -55,7 +55,6 @@
 /*paragraphe de la 2eme section*/
 .section2 > p{
     margin-top: 1.8rem!important;
-
 }
 
 .footer{
@@ -74,18 +73,30 @@
 /*text ( body ) */
 .Body_text {
     font-size: 1.19rem;
-    font-family: "lacuna_regularregular";
+    font-family: 'lacuna_regularregular';
     line-height: 1.556;
     text-align: left;
   }
   .section3-button{
       float: right;
       background-color:   #f0bd01;
+      border: none;
+      width: 5.3rem;
+      height: 1.75rem;
 
+  }
+  
+  .section3 {
+      background-color:#fafafa;
   }
 
   .footertext{
     font-family: 'League_Gothic';
+  }
+
+  .spacing
+  {
+      margin-bottom: 4rem;
   }
 
 /*icones*/
@@ -101,4 +112,11 @@
     width:  1.875rem;
     border-radius: 50%;
 
+}
+.bi-quote
+{
+    height:2.125;
+    width: 3.125rem;
+    font-size: 3.125rem;
+    color: #616161;
 }
