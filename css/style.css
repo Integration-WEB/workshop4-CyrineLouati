@@ -65,9 +65,12 @@
     padding-bottom: 1.798rem;
 }
 
-.footer > p{
+.footer > span{
     color: #31332e;
+    font-family: 'League_Gothic';
+    font-size: 1.8125rem;
 }
+
 /*text ( body ) */
 .Body_text {
     font-size: 1.19rem;
@@ -82,10 +85,20 @@
   }
 
   .footertext{
-      font-family: "League_Gothic";
+    font-family: 'League_Gothic';
   }
 
 /*icones*/
 .bi-circle-fill{
     color:#968d6d
+}
+
+.social{
+    padding-top: 0.2rem;
+    padding-left: 0.1rem;
+    background-color: white;
+    height:  1.875rem;
+    width:  1.875rem;
+    border-radius: 50%;
+
 }
